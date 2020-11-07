@@ -1,0 +1,65 @@
+.main_body {
+    padding: 20px;
+    font-family: sans-serif;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px
+}
+
+.col {
+    float: left;
+    width: 31%;
+    border: 2px solid #000000;
+    margin-left: 1em;
+    background: #999;
+}
+    .col .title {
+        margin-bottom: 10px;
+        border-left: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        width: 140px;
+        float: right;
+        background: #ccc;
+    }
+.col1 .title {
+    background: #d59898;
+}
+.col2 .title {
+    background: #c14543;
+    color:white
+}
+.col3 .title {
+    background: #e5d198;
+}
+    .col p {
+        margin:0;
+        padding:5px
+    }
+    .col1 {
+
+    }
+.col2 {
+
+}
+.col3 {
+
+}
+.text {
+    padding: 5px 10px 5px 10px;
+    font-weight:bold;
+    clear: both
+}
+
+
+
+
+
+
+

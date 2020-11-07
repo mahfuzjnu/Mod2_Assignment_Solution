@@ -1,0 +1,46 @@
+﻿body {
+}
+
+
+
+/*  divice variance css */
+
+/*-------------- No: 1  ------------- */
+
+/* For mobile phones: */
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+
+    .col {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left:0!important;
+    }
+}
+    /*------------------------ No: 2  ---------------------------- */
+
+    @media only screen and (min-width: 600px) and (max-width: 768px) {
+        /* For tablets: */
+        .col {
+            width: 46%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 1em !important;
+        }
+        .col3 {
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: 0 !important;
+        }
+    }
+
+
+
+    /*--------------------------------- No: 3  ----------------------------------- */
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        /* For desktop: */
+        .col-1 {
+        }
+    }
